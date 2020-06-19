@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HelloWorldUsingKotlin</string>
+    <string name="app_name">Kotlin App</string>
+    <string name="welcomemsg">Welcome to</string>
 </resources>
