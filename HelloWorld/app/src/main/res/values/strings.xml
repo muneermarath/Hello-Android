@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hello World</string>
+    <string name="projectname">Hello world from Java</string>
+    <string name="welcomemsg">Welcome to Java Android Project</string>
 </resources>
