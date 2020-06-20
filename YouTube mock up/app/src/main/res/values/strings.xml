@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Youtube</string>
+    <string name="projectname">Hello world from Java</string>
+    <string name="welcomemsg">Welcome to Java Android Project new text</string>
+    <string name="video_thumbnail_text">Samsung Galaxy S10+</string>
+    <string name="profilename">Niyas Muhammed</string>
+</resources>
