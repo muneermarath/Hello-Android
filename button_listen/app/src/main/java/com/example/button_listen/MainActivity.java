@@ -2,10 +2,13 @@ package com.example.button_listen;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
                 // Do something in response to button click
 
                 // Log.i("my test log", "button clicked");
+
+//Toast message sample
+//                Context context = getApplicationContext();
+//                CharSequence text = "Hello toast!";
+//                int duration = Toast.LENGTH_SHORT;
+//
+//                Toast toast = Toast.makeText(context, text, duration);
+//                toast.show();
+
+
 
             }
         });
