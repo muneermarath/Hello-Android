@@ -1,23 +1,293 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="screen1" />
 
-    <Button
-        android:id="@+id/button_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="profile"/>
+    <LinearLayout
+        android:id="@+id/mainbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/radius"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imgicon1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:tint="@color/icon_bg"
+                    android:background="@drawable/circle_button"
+                    android:src="@android:drawable/ic_menu_search" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="All"/>
 
 
 
-</LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imgicon1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:tint="@color/stroke"
+                    android:background="@drawable/circle_button_off"
+                    android:src="@android:drawable/ic_menu_search" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Electronics"/>
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imgicon1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:tint="@color/stroke"
+                    android:background="@drawable/circle_button_off"
+                    android:src="@android:drawable/ic_menu_search" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Mobile"/>
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imgicon1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:tint="@color/stroke"
+                    android:background="@drawable/circle_button_off"
+                    android:src="@android:drawable/ic_menu_search" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Watches"/>
+
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/imgicon1"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:tint="@color/stroke"
+                    android:background="@drawable/circle_button_off"
+                    android:src="@android:drawable/ic_menu_search" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Other"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <!--    <Button-->
+        <!--        android:id="@+id/button_id"-->
+        <!--        android:layout_width="48dp"-->
+        <!--        android:layout_height="48dp"-->
+        <!--        android:drawableStart="@android:drawable/ic_menu_search"-->
+        <!--        android:drawableTint="@color/colorAccent"-->
+        <!--        android:background="@drawable/circle_button" />-->
+        <!--    -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:padding="10dp"
+                    android:background="@drawable/cards">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="hey man cool">
+
+                    </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:padding="10dp"
+                    android:background="@drawable/cards">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="hey man cool">
+
+                    </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:padding="10dp"
+                    android:background="@drawable/cards">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="hey man cool">
+
+                    </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:padding="10dp"
+                    android:background="@drawable/cards">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="hey man cool">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+

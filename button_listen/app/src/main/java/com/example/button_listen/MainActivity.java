@@ -21,12 +21,12 @@ public class MainActivity extends AppCompatActivity {
 
 // Code starts here
 
-        Button button = (Button) findViewById(R.id.button_id);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Do something in response to button click
-
-                // Log.i("my test log", "button clicked");
+//        Button button = (Button) findViewById(R.id.button_id);
+//        button.setOnClickListener(new View.OnClickListener() {
+//        public void onClick(View v) {
+//                // Do something in response to button click
+//
+//        Log.i("my test log", "button clicked");
 
 //Toast message sample
 //                Context context = getApplicationContext();
@@ -35,12 +35,37 @@ public class MainActivity extends AppCompatActivity {
 //
 //                Toast toast = Toast.makeText(context, text, duration);
 //                toast.show();
+//
+//
+//
+//
+//
+//            }
+//        });
 
 
 
-            }
-        });
 
+
+
+ // image view click events
+
+//        findViewById(R.id.imgicon1).setOnClickListener(new View.OnClickListener() {
+//
+//            @Override
+//            public void onClick(View v) {
+//
+//
+//                Context context = getApplicationContext();
+//                CharSequence text = "Hello toast!";
+//                int duration = Toast.LENGTH_SHORT;
+//
+//                Toast toast = Toast.makeText(context, text, duration);
+//                    toast.show();
+//
+//
+//            }
+//        });
 
 
 
