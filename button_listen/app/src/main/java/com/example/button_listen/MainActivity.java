@@ -47,8 +47,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
  // image view click events
 
         findViewById(R.id.cardlist).setOnClickListener(new View.OnClickListener() {
