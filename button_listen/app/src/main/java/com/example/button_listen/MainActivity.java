@@ -3,6 +3,7 @@ package com.example.button_listen;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -50,22 +51,27 @@ public class MainActivity extends AppCompatActivity {
 
  // image view click events
 
-//        findViewById(R.id.imgicon1).setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View v) {
-//
-//
+        findViewById(R.id.cardlist).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+
 //                Context context = getApplicationContext();
 //                CharSequence text = "Hello toast!";
 //                int duration = Toast.LENGTH_SHORT;
 //
 //                Toast toast = Toast.makeText(context, text, duration);
 //                    toast.show();
-//
-//
-//            }
-//        });
+
+                Intent myIntent = new Intent(MainActivity.this, product.class);
+                MainActivity.this.startActivity(myIntent);
+
+
+
+
+            }
+        });
 
 
 
