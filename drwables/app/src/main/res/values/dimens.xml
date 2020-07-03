@@ -2,8 +2,8 @@
 <resources>
 
 
-    <dimen name="padding">16dp</dimen>
-    <dimen name="margin">24dp</dimen>
+    <dimen name="padding">14dp</dimen>
+    <dimen name="margin">14dp</dimen>
 
 
 </resources>

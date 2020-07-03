@@ -8,4 +8,13 @@
     <color name="buttonsecondary">#fafafa</color>
 
 
+
+<!--    Mytheme color-->
+
+
+    <color name="themePrimary">#AAA93E</color>
+    <color name="ThemeSecondary">#3700B3</color>
+
+
+
 </resources>
