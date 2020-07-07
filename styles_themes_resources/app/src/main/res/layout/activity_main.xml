@@ -76,7 +76,7 @@
 
     <Button
         android:id="@+id/button6"
-        style="@style/btnstyle1"
+        style="@style/bluebutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -87,14 +87,8 @@
 
     <Button
         android:id="@+id/button7"
-        style="@style/btnstyle1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="button style"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        style="@style/bluebutton"
+        android:text="button style"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
