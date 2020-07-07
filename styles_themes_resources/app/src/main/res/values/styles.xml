@@ -17,18 +17,8 @@
         <item name="android:radius">24dp</item>
         <item name="android:background">#3C28F3</item>
         <item name="android:layout_marginTop">24dp</item>
-        <item name="android:strokeColor">#ff00ff</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="layout_constraintEnd_toEndOf">@+id/view</item>
-        <item name="layout_constraintEnd_toStartOf">@id/view</item>
-        <item name="layout_constraintTop_toBottomOf">@id/view</item>
-
-
-
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintStart_toStartOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
 
 
     </style>

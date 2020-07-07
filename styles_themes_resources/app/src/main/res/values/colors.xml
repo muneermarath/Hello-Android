@@ -4,16 +4,14 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="cardbg">#FAF6F0</color>
-    <color name="buttonprimary">#276607</color>
-    <color name="buttonsecondary">#fafafa</color>
+    <color name="my_primary_color">#276607</color>
+    <color name="my_secondary_color">#fafafa</color>
 
 
 
 <!--    Mytheme color-->
 
 
-    <color name="themePrimary">#AAA93E</color>
-    <color name="ThemeSecondary">#3700B3</color>
 
 
 
