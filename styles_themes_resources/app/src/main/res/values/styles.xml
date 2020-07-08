@@ -13,13 +13,14 @@
         <item name="android:layout_margin">@dimen/margin</item>
         <item name="android:padding">@dimen/padding</item>
         <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:background">#3C28F3</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:text">Blue style button</item>
+        <item name="android:text">@string/bluebuttontext</item>
 
 
     </style>
+
 
 
 </resources>
