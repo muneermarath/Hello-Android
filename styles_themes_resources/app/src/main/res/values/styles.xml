@@ -16,7 +16,7 @@
         <item name="android:background">@color/colorPrimaryDark</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:text">@string/bluebuttontext</item>
+        <item name="android:text">@string/blue_button_text</item>
 
 
     </style>

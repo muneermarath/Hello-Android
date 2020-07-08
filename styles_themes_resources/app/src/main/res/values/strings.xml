@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">drwables</string>
-    <string name="bluebuttontext">i am blue button</string>
+    <string name="blue_button_text">i am blue button</string>
 </resources>
