@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#AAA93E</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="cardbg">#FAF6F0</color>
-    <color name="my_primary_color">#276607</color>
-    <color name="my_secondary_color">#fafafa</color>
-    <color name="blue_button_stroke">#824DDF</color>
+    <color name="colorPrimary">#252525</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+    <color name="green">#4CAF50</color>
+    <color name="blue">#673AB7</color>
+    <color name="dark_blue">#0D2088</color>
+
+    <color name="twin_button_color">#FF9800</color>
+
+
 
 
 

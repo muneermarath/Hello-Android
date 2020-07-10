@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">drwables</string>
-    <string name="blue_button_text">i am blue button</string>
+
+    <string name="blue_button_text">I am blue</string>
+    <string name="green_button_text">I am circle</string>
+    <string name="border_painted">Round border with padding</string>
+
 </resources>

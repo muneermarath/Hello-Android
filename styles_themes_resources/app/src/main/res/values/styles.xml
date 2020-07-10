@@ -8,20 +8,21 @@
     </style>
 
 
-    <style name="bluebutton">
+    <style name="button_twins">
 
         <item name="android:layout_margin">@dimen/margin</item>
         <item name="android:padding">@dimen/padding</item>
         <item name="android:textColor">@color/colorAccent</item>
-        <item name="android:textSize">20dp</item>
-        <item name="android:background">@drawable/blue_button_border</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/twin_button_background</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:text">@string/blue_button_text</item>
+        <item name="android:text">@string/twinbutton</item>
+
 
 
     </style>
 
 
-
+    <string name="twinbutton">We are twins</string>
 </resources>
